@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth;
+    background-color: rgb(132, 18, 132);
+    
+}
+
+
+section{
+    width: 70vw;
+    height: 75vh;
+    padding-top: 10vh;
+    margin-left: 10vw;
+}
+#ContactUs{
+    margin-bottom: 25vh;
+}
+.footer{
+    width: 100vw;
+    height: 15vh;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    
+}
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+span{
+    color: yellow;
+}
+.sidebar{
+    background-color: rgba(0, 0, 255, 0);
+    width: 7vw;
+    height: 75vh;
+    position: fixed;
+    top: 10vh;
+    padding-left: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 700ms;
+
+
+}
+.sidebarArrow{
+    width: 4vw;
+    height: 100%;
+    transition: 700ms;
+    margin-left: 30px;
+}
+.sidebarBox{
+    width: 4vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 30px;
+    
+}
+.headline{
+    width: 160%;
+    height: 5px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: -20px;
+    margin-bottom: 7px;
+}
+.shortline{
+    width: 90%;
+    height: 5px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: -20px;
+    margin-bottom: 7px;
+
+}
+a{
+    margin-left: 85px;
+    text-decoration: none;
+    color: unset;
+    color: white;
+    font-size: 18px;
+}
+.nav-list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+select{
+    margin-left: 85px;
+    margin-right: 269px;
+    background-color: rgba(128, 0, 128, 0);
+    border: none;
+    color: white;
+}
+.Uzb{
+    color: rgba(156, 149, 149, 0.779);
+    font-size: 15px;
+}
+.Lunix-nav{
+    color: white;
+    font-size: 20px;
+    margin-left: 74px;
+}
+.logo-changer{
+margin-top: 58px;
+margin-left: 55px;
+font-size: 20px;
+}
+h2{
+    color: white;
+}
+h6{
+    color: white;
+}
+.mini-log{
+    margin-left: 65px;
+    margin-top: -4px;
+    font-size: 7px;
+}
+.mini{
+    font-size: 5px;
+    margin-left: 65px;
+color: rgba(178, 172, 172, 0.843);
+margin-top: -1px;
+margin-right: 200px;
+}
+.moreinfo{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 104px;
+}
+.footer-h3{
+    font-size: 28px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 10px;
+    margin-bottom: 21px;
+}
+.footer-h5{
+    font-size: 18px;
+    margin-bottom: 66px;
+    color: white;
+}
+#Main{
+    width: 1600px;
+    height: 982px;
+}
+#AboutUs{
+    width: 1600px;
+    height: 982px; 
+}
+#Group{
+    width: 1600px;
+    height: 982px;
+}
+#Services{
+    width: 1600px;
+    height: 982px;
+}
+#Prices{
+    width: 1600px;
+    height: 982px;
+}
+#ContactUs{
+    width: 1600px;
+    height: 982px;
+    
+}
