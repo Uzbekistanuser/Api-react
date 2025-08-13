@@ -15,6 +15,7 @@ import groupback from '../public/img/groupback.png'
 import servicesback from '../public/img/servicesback.png'
 import pricesback from '../public/img/pricesback.png'
 import contactback from '../public/img/contactback.png'
+import { Router } from 'react-router-dom'
 function App() {
   const [arrowPadding , setarrowPadding] = useState("5.5vh")
   const [sidebarLeft, setSidebarLeft] = useState("-10vw")
@@ -32,7 +33,6 @@ function App() {
     }}>
     <Navbar scrollFunc={scrollFunc} setSidebarLeft={setSidebarLeft} />
     <SideBar arrowPadding={arrowPadding} sidebarLeft={sidebarLeft} scrollFunc={scrollFunc}/>
-    
     <Main/>
     <div style={{
       background:`url(${aboutback}) no-repeat`,

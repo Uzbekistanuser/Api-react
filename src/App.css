@@ -11,6 +11,8 @@ html{
 }
 
 
+
+
 section{
     width: 70vw;
     height: 75vh;
@@ -52,7 +54,7 @@ span{
     justify-content: center;
     align-items: center;
     transition: 700ms;
-
+    margin-left: 103px;
 
 }
 .sidebarArrow{
@@ -60,6 +62,7 @@ span{
     height: 100%;
     transition: 700ms;
     margin-left: 30px;
+
 }
 .sidebarBox{
     width: 4vw;
@@ -68,11 +71,11 @@ span{
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    margin-left: 30px;
+    margin-left: 13px;
     
 }
 .headline{
-    width: 160%;
+    width: 100%;
     height: 5px;
     border-radius: 20px;
     background-color: white;
@@ -80,7 +83,7 @@ span{
     margin-bottom: 7px;
 }
 .shortline{
-    width: 90%;
+    width: 60%;
     height: 5px;
     border-radius: 20px;
     background-color: white;
@@ -144,14 +147,14 @@ margin-right: 200px;
     gap: 104px;
 }
 .footer-h3{
-    font-size: 28px;
+    font-size: 32px;
     margin-top: 20px;
     color: white;
     font-weight: 10px;
     margin-bottom: 21px;
 }
 .footer-h5{
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 66px;
     color: white;
 }
@@ -179,4 +182,160 @@ margin-right: 200px;
     width: 1600px;
     height: 982px;
     
+}
+.oneimg{
+    width: 90px;
+    height: 90px;
+    margin-bottom: -110px;
+    margin-left: 120px;
+    margin-top: 29px;
+}
+.around{
+    position: absolute;
+    
+}
+.uklon{
+    margin-top: 26px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 27px;
+}
+.inside-img{
+    position: relative;
+    margin-left: 18px;
+    margin-top: 18px;
+    margin-right: 18px;
+    margin-bottom: 18px;
+
+    
+}
+.inside-web{
+    position: relative;
+    margin-left: 19px;
+    margin-top: 23px;
+    margin-right: 18px;
+    margin-bottom: 18px;
+    
+    
+}
+.inside-pc{
+    position: relative;
+    margin-left: 18px;
+    margin-top: 18px;
+    margin-right: 18px;
+    margin-bottom: 18px;
+
+    
+}
+
+.small-box{
+    width: 1064px;
+    height: 244px;
+    display: flex;
+    margin-left: 97px;
+}
+.small-box-inside{
+    width: 330px;
+    height: 244px;
+    border-radius: 20px;
+    background-color: #C9FFEE80;
+    margin-right: 37px;
+}
+.small-box-inside-last{
+    width: 330px;
+    height: 244px;
+    border-radius: 20px;
+    background-color: #C9FFEE80;
+}
+.first-box{
+    width: 1064px;
+    height: 180px;
+    background-color: #C9FFEE80;
+    border-radius: 20px;
+    margin-top: 102px;
+    margin-bottom: 31px;
+    margin-left: 97px;
+}
+.boxes-h3{
+color: white;
+font-size: 24px;
+margin-left: 90px;
+margin-bottom: 27px;
+padding-top: 30px;
+}
+.boxes-h5{
+    width: 772px;
+    font-size: 19px;
+    margin-left: 40px;
+    margin-top: 27px;
+    margin-bottom: 47px;
+    color: white;
+}
+.uklon-text{
+    margin-top: -100px;
+    margin-left: 115px;
+    font-size: 20px;
+    width: 131px;
+    height: 48px;
+    color: white;
+}
+.group-span{
+    color: red;
+}
+.second-box{
+    width: 1064px;
+    height: 288px;
+    background-color: #C9FFEE80;
+    border-radius: 20px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.pc-purple{
+    margin-top: -45px;
+   
+}
+.information-job{
+    width: 540px;
+    height: 182.66px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 53px;
+}
+.group-img{
+    margin-right: 32px;
+}
+.front-job{
+    width: 239px;
+    height: 54px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 60px;
+}
+.soft-job{
+    width: 232px;
+    height: 56.21px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 60px;
+}
+.back-job{
+    width: 234px;
+    height: 67.66px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.mob-job{
+    width: 219px;
+    height: 67.26px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.jobs-text-h4{
+    margin-bottom: 6px;
+    color: white;
+}
+.jobs-text-h5{
+color: white;
 }
